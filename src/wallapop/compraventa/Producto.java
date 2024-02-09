@@ -32,6 +32,10 @@ public class Producto {
 		contadorCod++;
 		actualizaEstadistica(precio);
 	}
+	public Producto (String nombre, double precio) {
+		this.nombre = nombre;
+		this.precio = precio;
+	}
 
 	public static int getCodigo() {
 		return contadorCod;

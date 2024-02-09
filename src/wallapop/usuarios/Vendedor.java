@@ -10,6 +10,10 @@ public class Vendedor {
 				this.nombre = nombre;
 				this.productosVendidos = productosVendidos;
 			}
+			public Vendedor(String nombre) {
+				this.nombre = nombre;
+				
+			}
 
 			//Getters y setters
 			public String getNombre() {
